@@ -31,3 +31,4 @@ def _download_single_model_weights(download_directory, kind, version):
 def download_weights(download_directory, version='1.0.0'):
     for kind in ['face', 'plate']:
         _download_single_model_weights(download_directory=download_directory, kind=kind, version=version)
+download_weights('/home/tianpei.qian/workspace/anonymizer/weights')
